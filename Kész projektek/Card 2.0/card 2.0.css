@@ -1,0 +1,96 @@
+/* CSS reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 100%;}
+
+
+
+body {/*flexbox*/
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+/*háttérkép*/
+background: url('https://i.imgur.com/kJcYZsI.jpg') no-repeat center center fixed;
+background-size: cover;
+}
+
+.profile-card {/*alap pozícionálás*/
+width: 350px;
+max-width: calc(100vw - 10px);
+background-color: rgba(30, 30, 40, 0.5);
+border-radius: 14px;
+box-shadow: rgba(0, 0, 0, 1) 10px 20px 30px;
+border-left: solid 1px;
+border-bottom: solid 1px;
+}
+
+.head {text-align: center;
+width: 90%;
+margin: 0 auto;
+}
+
+.content {text-align: center;
+width: 90%;
+margin: 0 auto;
+}
+
+.profile-image {margin-top: -40px;
+}
+
+.na {border: solid 1px;
+background-color: rgba(125,125,175,0.2);
+margin: 0 20%;
+font-size: 135%;
+}
+
+.born {border: solid 1px;
+background-color: rgba(125,125,175,0.2);
+margin: 0 25%;
+font-size: 95%;
+}
+
+h6 {font-size: 144%;
+color: rgba(255,150,0,0.8);
+}
+
+h3 {font-size: 95%;
+color: rgba(0,0,0,0.8);
+margin-top: 10px;
+}
+
+.company {
+font-size: 95%;
+color: rgba(20,0,0,1);
+border: solid 1px;
+border-color: black;
+background-color: rgba(125,125,175,0.2);
+margin: 4% 25%;
+margin-top: 45px;
+padding-left: 4%;
+padding-right: 4%;
+}
+
+.about {background-color: rgba(125,125,175,0.2);
+border: solid 1px;
+margin: 4% 25%;
+padding: 3%;
+font-size: 125%;
+}
+
+.links {background-color: rgba(125,125,175,0.4);
+text-align: center;
+border: solid 1px;
+margin: 1% 5%;
+}
+
+ul {list-style-type: none;}
+li {display: inline;}
+img {
+width: 130px;
+height: 130px;
+border-radius: 20%;}
+
+
