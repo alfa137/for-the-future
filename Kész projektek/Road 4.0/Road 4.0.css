@@ -1,0 +1,240 @@
+/*font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;*/
+
+* {
+box-sizing: border-box;
+font-size: 100%;
+}
+
+body {
+width: 100vw;
+background:
+url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+background-attachment: fixed;
+font-family: 'Lora', serif;
+/* line-height:.... - most nem használom a sor magasságot, se a méretet, színt elõre megadva, de praktikus!*/
+}
+
+.cover {background:  url('https://i.imgur.com/vI8dusL.jpg') no-repeat center/cover;
+height: 100vh;
+width: 100vw;
+position: relative; /*"position"- csak így mûködik a boxal!*/
+}
+
+.box-wrapper {background: rgba(0,0,0,0.2);
+position: absolute; /*"position"*/
+height: 25%;
+width: 60%;
+margin: 25% 20%;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);
+}
+
+.box-text {color: rgba(10,180,255,0.7);
+font-family: 'Open-sans', sans-serif; 
+text-align: center;
+text-shadow: 1px 1px rgba(0,0,0,0.8);
+}
+h1 {font-size: 180%;
+font-weight: bold;
+padding-top: 8%;}
+p {color: rgba(0,0,0,0.8);
+padding-top: 4%;
+font-size: 120%;}
+h4 {padding-top: 4%;
+font-size: 220%;
+font-weight: bold;}
+/*========== main ==========*/
+/*-----------Kontinensek----------*/
+.locations img {width: 12rem;
+height: 8rem;
+border-right: 2.5px solid;
+border-bottom: 2.5px solid;
+border-color: rgba(0,30,0,0.5);
+border-radius: 5px;
+}
+
+.locations {text-align: center;
+padding-top: 1rem;
+padding-bottom: 4rem;
+background-color: rgba(20,20,50,0.2);
+}
+
+h2 {font-family: 'Open-sans', sans-serif;
+font-size: 200%;
+font-weight: bold;
+padding-top: 2rem;
+padding-bottom: 1rem;}
+
+h3 {font-size: 135%;
+margin-top: 1.5rem;
+margin-bottom: 0.5rem;}
+
+h5 {font-size: 155%;
+color: rgba(250,250,250,1);}
+
+/*----------My trips-----------*/
+.countries {text-align: center;
+margin-bottom: 2rem;
+}
+
+ul {margin-top: 1rem;
+margin-bottom: 1rem;}
+
+li {margin-top: 0.5rem;
+padding-bottom: .5rem;
+font-size: 135%;
+}
+
+a {text-decoration: none;
+color: rgba(0,0,0,0.9)
+}
+a:hover {color: rgba(0,0,255,1);
+transition: color .15s ease-in-out;}
+
+.box-countries {background: rgba(150,150,100,0.4);
+height: 5%;
+width: 40%;
+margin: 5% 30%;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);
+}
+
+.maps1 {background:  url('http://i.imgur.com/d1cMafr.jpg') no-repeat center/cover;
+width: 80%;
+margin: 5% auto;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);}
+
+.maps2 {background:  url('http://www.lib.utexas.edu/maps/historical/colbeck/europe_1730.jpg') no-repeat center/cover;
+width: 80%;
+margin: 5% auto;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);}
+
+.maps3 {background:  url('http://i.imgur.com/iYl3AcT.jpg') no-repeat center/cover;
+width: 80%;
+margin: 5% auto;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);}
+
+.maps4 {background:  url('http://i.imgur.com/hoItiDW.jpg') no-repeat center/cover;
+width: 80%;
+margin: 5% auto;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);}
+
+.maps5 {background:  url('http://i.imgur.com/NxLyif0.jpg') no-repeat center/cover;
+width: 80%;
+margin: 5% auto;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);}
+
+.pic img {width: 6rem;
+height: 6rem;
+border-radius: 3%;
+}
+/*--------Társak---------*/
+
+.fellow-traveller {text-align: center;
+padding-top: 1rem;
+padding-bottom: 1rem;
+background-color: rgba(20,20,50,0.2);
+}
+
+h6 {font-size: 150%;
+font-family: 'Open-sans', sans-serif;
+padding-bottom: 0.5rem;
+}
+
+.pas {background: rgba(150,150,100,0.4);
+/* height: 40%; valamiért magasság értéket nem fogad el!*/
+width: 40%;
+margin: 2rem auto;
+padding: 1rem;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow:
+  background-color: rgba(0,0,0,0.1) ;
+  box-shadow: .5rem 1rem 1rem rgba(80,60,40,0.5);}
+
+/*---------Kérdések---------*/
+.quest {text-align: center;
+margin-bottom: 3rem;
+}
+
+.group {text-align: left;
+}
+
+h3 {text-align: center;}
+
+.question {font-weight: bold;
+padding: 5%;}
+.answer {padding: 5%;}
+
+/*---------Contakt----------*/
+
+.contact {text-align: center;
+background: rgba(150,150,100,0.4);
+padding-bottom: 1rem;
+border-bottom: 1px solid black;}
+
+.footer-wrapper {background-color: rgba(0,0,0,0.6);
+padding-bottom: 0.5rem;
+line-height: 1.5;
+text-align: center;
+}
+small {color: white;}
+h7 {color: red;}
+
+h7:hover {color: rgba(0,0,255,1);
+transition: color .15s ease-in-out;
+}
+/*_________Media Q._________*/
+
+@media (min-width: 768px) {
+
+.box-wrapper {height: 35%;}
+
+/* itt elég az al-classt (afrika) inline-block-ba helyezni!*/
+.africa {display: inline-block;
+padding: 1%;}
+
+.location img {width: 5rem;}
+
+.pas {display: inline-block;/*itt is az alclass (pas)!*/
+width: 20vw; /*vw-ben kell megadni a változtatást, különben nem reagál!*/
+margin: 0 5rem 3rem;}
+
+.group {display: inline-block; /*itt is az alosztály kerül inline-blockba!*/
+        width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;}
+
+.footer-wrapper {padding-bottom: 2rem;}
+}
+
+
+
